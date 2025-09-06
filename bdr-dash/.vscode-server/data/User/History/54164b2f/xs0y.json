@@ -1,0 +1,54 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "python.defaultInterpreterPath": "c:\\Windows\\py.exe",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\Windows\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "files.autoSave": "afterDelay",
+    "editor.rulers": [
+        80
+    ],
+    "remote.SSH.remotePlatform": {
+        "node.zoo.cs.yale.edu": "linux",
+        "frog.zoo.cs.yale.edu": "linux",
+        "172.20.10.10": "linux"
+    },
+    "vim.changeWordIncludesWhitespace": true,
+    "vim.handleKeys": {
+
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false
+    },
+
+    "vim.useSystemClipboard": true,
+    "workbench.editorAssociations": {
+        "*.xlsx": "gc-excelviewer-excel-editor"
+    }
+
+}

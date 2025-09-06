@@ -1,0 +1,3 @@
+[submodule "bdr-lv"]
+	path = bdr-lv
+	url = git@github.com:jeffreylinus/bdr-lv.git

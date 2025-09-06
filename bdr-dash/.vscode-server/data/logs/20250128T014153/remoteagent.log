@@ -1,0 +1,11 @@
+2025-01-28 01:41:53.953 [info] 
+
+
+
+
+2025-01-28 01:41:53.985 [info] Extension host agent started.
+2025-01-28 01:41:54.137 [info] Started initializing default profile extensions in extensions installation folder. file:///home/bdr/.vscode-server/extensions
+2025-01-28 01:41:54.142 [info] [<unknown>][648d1d7c][ExtensionHostConnection] New connection established.
+2025-01-28 01:41:54.159 [info] [<unknown>][38e4af2c][ManagementConnection] New connection established.
+2025-01-28 01:41:54.304 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/bdr/.vscode-server/extensions
+2025-01-28 01:41:54.346 [info] [<unknown>][648d1d7c][ExtensionHostConnection] <2101> Launched Extension Host Process.

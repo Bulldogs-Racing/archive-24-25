@@ -1,0 +1,87 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-1f90edb3-393e-45f9-830a-7efcd1c436ac
+Extension host agent listening on /tmp/code-1f90edb3-393e-45f9-830a-7efcd1c436ac
+
+[01:49:25] 
+
+
+
+
+[01:49:25] Extension host agent started.
+[01:49:25] [<unknown>][ee86bacf][ManagementConnection] New connection established.
+[01:49:25] [<unknown>][3bee762d][ExtensionHostConnection] New connection established.
+[01:49:25] [<unknown>][3bee762d][ExtensionHostConnection] <2334> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[01:54:25] New EH opened, aborting shutdown
+[01:55:44] [<unknown>][5557f91a][ExtensionHostConnection] New connection established.
+[01:55:44] [<unknown>][5557f91a][ExtensionHostConnection] <2488> Launched Extension Host Process.
+[01:55:44] [<unknown>][ea09f223][ManagementConnection] New connection established.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty 5 on pty host
+stack trace: CodeExpectedError: Could not find pty 5 on pty host
+    at I.W (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12233)
+    at I.updateTitle (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at Kc.s (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80170)
+    at Kc.q (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79693)
+    at hs.value (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79095)
+    at C.B (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at C.fire (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.w (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29136)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[01:55:47] Error [CodeExpectedError]: Could not find pty 5 on pty host
+    at I.W (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12233)
+    at I.updateTitle (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at Kc.s (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80170)
+    at Kc.q (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79693)
+    at hs.value (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79095)
+    at C.B (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at C.fire (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.w (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29136)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[01:56:03] [<unknown>][ee86bacf][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[01:57:11] [<unknown>][ee86bacf][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[01:57:11] [<unknown>][845130e7][ManagementConnection] New connection established.
+[01:57:11] [<unknown>][5f3401de][ExtensionHostConnection] New connection established.
+[01:57:11] [<unknown>][5f3401de][ExtensionHostConnection] <2703> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty 6 on pty host
+stack trace: CodeExpectedError: Could not find pty 6 on pty host
+    at I.W (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12233)
+    at I.updateTitle (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at Kc.s (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80170)
+    at Kc.q (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79693)
+    at hs.value (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79095)
+    at C.B (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at C.fire (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.w (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29136)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[01:57:13] Error [CodeExpectedError]: Could not find pty 6 on pty host
+    at I.W (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12233)
+    at I.updateTitle (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at Kc.s (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80170)
+    at Kc.q (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79693)
+    at hs.value (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79095)
+    at C.B (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at C.fire (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.w (file:///home/bdr/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29136)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

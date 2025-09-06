@@ -1,0 +1,6 @@
+Listening on 127.0.0.1:44021
+[2025-01-28 01:51:52] info Disposed of connection to running server.
+[2025-01-28 01:51:52] info Checking /home/bdr/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/log.txt and /home/bdr/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/pid.txt for a running server...
+[2025-01-28 01:51:52] info Starting server...
+[2025-01-28 01:51:53] info Server started
+[2025-01-28 02:36:04] info Disposed of connection to running server.
